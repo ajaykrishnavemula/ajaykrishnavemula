@@ -6,7 +6,7 @@
 
 <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;Backend+API+Architect;Frontend+Developer;Building+Production-Ready+Apps;Always+Learning+%F0%9F%9A%80" alt="Typing SVG" />
 
-[![GitHub followers](https://img.shields.io/github/followers/ajaykrishnavemula?style=social)](https://github.com/ajaykrishnavemula)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajaykrishnavemula/)
 [![Email](https://img.shields.io/badge/Email-ajaykrishnatech%40gmail.com-red?style=flat&logo=gmail)](mailto:ajaykrishnatech@gmail.com)
 
 </div>
@@ -537,9 +537,9 @@ Phase 4: Core CS Fundamentals
 
 <div align="center">
 
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajaykrishnavemula/)
 [![Email](https://img.shields.io/badge/Email-ajaykrishnatech%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajaykrishnatech@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-ajaykrishnavemula-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ajaykrishnavemula)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/ajaykrishnavemula)
 
 **Open to collaboration, feedback, and exciting opportunities!**
 
