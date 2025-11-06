@@ -1,6 +1,6 @@
 <div align="center">
 
-# 👋 Hi, I'm Ajay Krishna Vemula
+# 👋 Hi, I'm Ajay Krishna 
 
 ### 💻 Full-Stack Developer | Backend Architect | Frontend Enthusiast
 
