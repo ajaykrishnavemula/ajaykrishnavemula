@@ -16,12 +16,25 @@
 
 ## 🎯 About Me
 
+<table>
+<tr>
+<td width="60%">
+
 I'm a **full-stack engineer** with expertise spanning the **entire Software Development Life Cycle (SDLC)** - from system design and architecture to development, deployment, and operations. I build **production-ready, scalable systems** that solve real-world problems.
 
 ```
 🏗️  System Design  →  💻  Development  →  🔒  Security  →  🚀  Deployment  →  📊  Monitoring
      (HLD/LLD)         (Full-Stack)      (DevSecOps)      (CI/CD/K8s)      (Observability)
 ```
+
+</td>
+<td width="40%">
+
+<img src="https://user-images.githubusercontent.com/74038190/212749171-b84692a8-2b04-4e3b-93ca-ac14705da224.gif" width="400" alt="Coding Animation"/>
+
+</td>
+</tr>
+</table>
 
 ### 🌟 Quick Stats
 
