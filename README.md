@@ -1,34 +1,223 @@
 <div align="center">
 
-# 👋 Hi, I'm Ajay Krishna 
+# 👋 Hi, I'm Ajay Krishna Vemula
 
-### 💻 Full-Stack Developer | Backend Architect | Frontend Enthusiast
+### 🚀 Full-Stack Engineer | System Design Architect | DevSecOps Specialist
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=435&lines=Full-Stack+Developer;Backend+API+Architect;Frontend+Developer;Building+Production-Ready+Apps;Always+Learning+%F0%9F%9A%80" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Full-Stack+Developer+%7C+5+Production+Apps;System+Design+Expert+%7C+6+HLD+Projects;DevSecOps+Engineer+%7C+CI%2FCD+%2B+K8s;Building+Scalable+Systems+%F0%9F%9A%80;SDLC+Master+%7C+Design+to+Deployment" alt="Typing SVG" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ajaykrishnavemula/)
 [![Email](https://img.shields.io/badge/Email-ajaykrishnatech%40gmail.com-red?style=flat&logo=gmail)](mailto:ajaykrishnatech@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_Projects-00C7B7?style=flat&logo=github)](https://github.com/ajaykrishnavemula)
 
 </div>
 
 ---
 
-## 🚀 About Me
+## 🎯 About Me
 
-I'm a passionate full-stack developer who loves building **production-ready applications** that solve real-world problems. From crafting robust backend APIs to creating beautiful, responsive frontends, I enjoy every aspect of the development process.
+I'm a **full-stack engineer** with expertise spanning the **entire Software Development Life Cycle (SDLC)** - from system design and architecture to development, deployment, and operations. I build **production-ready, scalable systems** that solve real-world problems.
 
-- 🔭 Currently working on **5 production-grade full-stack applications**
-- 🌱 Mastering **Node.js, Express, Fastify, React, TypeScript, and MongoDB**
-- 💡 Built **comprehensive full-stack systems** with both frontend and backend
-- 📚 Created **20,000+ lines** of comprehensive documentation
-- ⚡ Developed **150+ API endpoints** across multiple domains
-- 🎯 Consolidated **22 frontend projects** into **3 portfolio-worthy applications**
+```
+🏗️  System Design  →  💻  Development  →  🔒  Security  →  🚀  Deployment  →  📊  Monitoring
+     (HLD/LLD)         (Full-Stack)      (DevSecOps)      (CI/CD/K8s)      (Observability)
+```
+
+### 🌟 Quick Stats
+
+- 🏗️ **System Design**: 6 comprehensive HLD projects (URL Shortener to WhatsApp-scale messaging)
+- 💻 **Full-Stack**: 5 production-ready applications with 150+ API endpoints
+- 🔒 **DevSecOps**: 4 major projects with CI/CD, Kubernetes, and security automation
+- 📚 **Documentation**: 30,000+ lines of technical documentation
+- ⚡ **Code**: 25,000+ lines across multiple domains
+- 🎓 **Learning**: Continuous improvement in distributed systems and cloud architecture
 
 ---
 
-## 🎯 Featured Full-Stack Projects
+## 🏗️ System Design Portfolio
 
-> **Complete end-to-end applications with React frontends and Node.js backends**
+> **Mastering High-Level Design from beginner to advanced scale**
+
+<table>
+<tr>
+<td width="50%">
+
+### 🔗 [URL Shortener](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/1.%20url-shortener)
+**Difficulty:** ⭐ Beginner | **Scale:** 1B URLs, 100M DAU
+
+![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
+![Patterns](https://img.shields.io/badge/Patterns-Caching-blue?style=flat)
+
+**Key Concepts:**
+- Base62 encoding & hash algorithms
+- Redis caching strategies
+- Database indexing & sharding
+- CDN optimization
+
+**What I Learned:**
+- Unique ID generation at scale
+- Trade-offs: Hash vs Counter
+- Multi-layer caching patterns
+- Horizontal scaling techniques
+
+</td>
+<td width="50%">
+
+### 🚦 [Rate Limiter](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/2.%20rate-limiter)
+**Difficulty:** ⭐⭐ Intermediate | **Scale:** 1M RPS
+
+![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
+![Patterns](https://img.shields.io/badge/Patterns-Token_Bucket-blue?style=flat)
+
+**Key Concepts:**
+- Token Bucket algorithm
+- Redis sharding with consistent hashing
+- API Gateway integration
+- Distributed counters
+
+**What I Learned:**
+- Rate limiting algorithms comparison
+- Scaling to millions of requests/sec
+- Handling hot keys
+- Fail-open vs fail-closed strategies
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🛒 [E-Commerce Order System](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/3.%20ecommerce-order-system)
+**Difficulty:** ⭐⭐⭐ Advanced | **Scale:** Amazon-level
+
+![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
+![Patterns](https://img.shields.io/badge/Patterns-Microservices-blue?style=flat)
+
+**Key Concepts:**
+- Microservices architecture
+- Event-driven design (Kafka)
+- Inventory management & race conditions
+- Payment processing state machines
+
+**What I Learned:**
+- Handling Black Friday scale (10× traffic)
+- Distributed transactions (Saga pattern)
+- Database selection (MySQL/MongoDB/Cassandra)
+- Real-time analytics with Spark
+
+</td>
+<td width="50%">
+
+### 📰 [Social Feed (Facebook)](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/4.%20social-feed-facebook)
+**Difficulty:** ⭐⭐⭐ Advanced | **Scale:** 2B users
+
+![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
+![Patterns](https://img.shields.io/badge/Patterns-Fan--Out-blue?style=flat)
+
+**Key Concepts:**
+- Fan-out on write vs read
+- Precomputed feeds & hybrid approaches
+- Celebrity accounts (90M+ followers)
+- Hot key problem & redundant caching
+
+**What I Learned:**
+- The famous fan-out problem
+- When to pre-compute vs on-demand
+- Async workers with SQS
+- DynamoDB data modeling with GSI
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🚀 [Distributed Cache](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/5.%20distributed-cache)
+**Difficulty:** ⭐⭐ Intermediate | **Scale:** High throughput
+
+![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
+![Patterns](https://img.shields.io/badge/Patterns-Consistent_Hashing-blue?style=flat)
+
+**Key Concepts:**
+- LRU, LFU, FIFO eviction policies
+- Consistent hashing with virtual nodes
+- Master-slave replication
+- Sharding strategies
+
+**What I Learned:**
+- How caching improves performance (1000×)
+- Consistent hashing for minimal rehashing
+- High availability with replication
+- Redis vs Memcached trade-offs
+
+</td>
+<td width="50%">
+
+### 💬 [Messaging App (WhatsApp)](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/6.%20messaging-app-whatsapp)
+**Difficulty:** ⭐⭐⭐ Advanced | **Scale:** Billions of users
+
+![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
+![Patterns](https://img.shields.io/badge/Patterns-Real--Time-blue?style=flat)
+
+**Key Concepts:**
+- WebSocket connections for real-time
+- Redis Pub/Sub for message routing
+- Offline message delivery (Inbox pattern)
+- Pre-signed URLs for media uploads
+
+**What I Learned:**
+- Why WebSockets over REST
+- Scaling real-time connections (1-2M/server)
+- Guaranteed message delivery
+- Multi-device synchronization
+
+</td>
+</tr>
+</table>
+
+### 🎓 System Design Skills Mastered
+
+<table>
+<tr>
+<td width="33%">
+
+**Architectural Patterns**
+- ✅ Microservices Architecture
+- ✅ Event-Driven Design
+- ✅ CQRS & Event Sourcing
+- ✅ Saga Pattern
+- ✅ API Gateway Pattern
+- ✅ Service Mesh
+
+</td>
+<td width="33%">
+
+**Scaling Strategies**
+- ✅ Horizontal Scaling
+- ✅ Database Sharding
+- ✅ Consistent Hashing
+- ✅ Load Balancing
+- ✅ Caching Layers
+- ✅ CDN Integration
+
+</td>
+<td width="33%">
+
+**Data Management**
+- ✅ CAP Theorem Trade-offs
+- ✅ Database Selection
+- ✅ Data Modeling
+- ✅ Replication Strategies
+- ✅ Partitioning Schemes
+- ✅ Consistency Models
+
+</td>
+</tr>
+</table>
+
+---
+
+## 💻 Full-Stack Development Portfolio
+
+> **Production-ready applications with React frontends and Node.js backends**
 
 <table>
 <tr>
@@ -42,17 +231,8 @@ I'm a passionate full-stack developer who loves building **production-ready appl
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat&logo=fastify&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 
-**Frontend Features:**
-- ✅ Multi-role dashboards (Student, Warden, Security)
-- ✅ Real-time notifications with Socket.io
-- ✅ QR code generation & scanning
-- ✅ Responsive design with Tailwind CSS
-
-**Backend Features:**
-- ✅ JWT authentication with role-based access
-- ✅ RESTful API with 40+ endpoints
-- ✅ Real-time updates with WebSockets
-- ✅ Email notifications & PDF generation
+**Frontend:** Multi-role dashboards, Real-time notifications, QR code generation  
+**Backend:** JWT auth, 40+ endpoints, WebSockets, Email & PDF generation
 
 **Status:** 🚀 Production Ready
 
@@ -67,17 +247,8 @@ I'm a passionate full-stack developer who loves building **production-ready appl
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 
-**Frontend Features:**
-- ✅ Modern authentication UI
-- ✅ OAuth integration (Google, GitHub)
-- ✅ Two-factor authentication (2FA)
-- ✅ Admin dashboard with analytics
-
-**Backend Features:**
-- ✅ JWT + OAuth authentication
-- ✅ Role-Based Access Control (RBAC)
-- ✅ Password reset & email verification
-- ✅ Security best practices (bcrypt, helmet)
+**Frontend:** OAuth integration, 2FA, Admin dashboard  
+**Backend:** JWT + OAuth, RBAC, Security best practices
 
 **Status:** 🚀 Production Ready
 
@@ -92,19 +263,9 @@ I'm a passionate full-stack developer who loves building **production-ready appl
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 
-**Frontend Features:**
-- ✅ Job search with advanced filters
-- ✅ Application tracking dashboard
-- ✅ Company profiles & reviews
-- ✅ Real-time messaging system
-
-**Backend Features:**
-- ✅ Job posting & application management
-- ✅ Advanced search with Elasticsearch
-- ✅ Email notifications (SendGrid)
-- ✅ Analytics & recommendations
+**Frontend:** Job search, Application tracking, Real-time messaging  
+**Backend:** Elasticsearch, Email notifications, Analytics
 
 **Status:** 🚀 Production Ready
 
@@ -117,19 +278,9 @@ I'm a passionate full-stack developer who loves building **production-ready appl
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 
-**Frontend Features:**
-- ✅ Product catalog with search & filters
-- ✅ Shopping cart & wishlist
-- ✅ Secure checkout with Stripe
-- ✅ Order tracking & history
-
-**Backend Features:**
-- ✅ Product & inventory management
-- ✅ Payment integration (Stripe, PayPal)
-- ✅ Order processing & fulfillment
-- ✅ Review & rating system
+**Frontend:** Product catalog, Shopping cart, Stripe checkout  
+**Backend:** Payment integration, Order processing, Reviews
 
 **Status:** 🚀 Production Ready
 
@@ -144,20 +295,10 @@ I'm a passionate full-stack developer who loves building **production-ready appl
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socket.io&logoColor=white)
 
-**Frontend Features:**
-- ✅ Kanban board with drag & drop
-- ✅ Real-time collaboration
-- ✅ Team management interface
-- ✅ Analytics dashboard
-
-**Backend Features:**
-- ✅ Project & task management
-- ✅ Real-time updates with Socket.io
-- ✅ Team collaboration features
-- ✅ Activity tracking & analytics
+**Frontend:** Kanban board with drag & drop, Real-time collaboration, Analytics dashboard  
+**Backend:** Project & task management, Socket.io real-time updates, Activity tracking
 
 **Status:** 🚀 Production Ready
 
@@ -167,60 +308,157 @@ I'm a passionate full-stack developer who loves building **production-ready appl
 
 ---
 
-## 🎨 Frontend Showcase Projects
+## 🔒 DevSecOps & Cloud Infrastructure
 
-> **Demonstrating mastery from Vanilla JS to Modern React**
+> **CI/CD pipelines, Kubernetes orchestration, and security automation**
 
 <table>
 <tr>
 <td width="50%">
 
-### 📊 [Productivity Dashboard](https://github.com/ajaykrishnavemula/Productivity-dashboard)
+### 🎯 [DevSecOps TicTacToe](https://github.com/ajaykrishnavemula/devsecops-lab-tictactoe)
+**Complete DevSecOps Pipeline Implementation**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Security](https://img.shields.io/badge/Security-Trivy_SonarQube-red?style=flat)
 
-**Vanilla JavaScript Mastery**
+**CI/CD Pipeline:**
+- ✅ Automated testing & code quality (SonarQube)
+- ✅ Container security scanning (Trivy)
+- ✅ Docker image building & pushing
+- ✅ Kubernetes deployment automation
 
-- 📝 Task Management (CRUD)
-- 🍎 Calorie Tracker
-- 🎮 Mini Games Collection
-- 📚 Reading List Manager
-- 💾 localStorage persistence
-
-**Tech Stack:**
-- ES6+ Modules
-- Module Pattern
-- Event-driven architecture
-- Responsive design
-
-**~1,500 LOC** | **Intermediate Level**
+**Security Features:**
+- ✅ SAST (Static Application Security Testing)
+- ✅ Container vulnerability scanning
+- ✅ Secrets management
+- ✅ Security gates in pipeline
 
 </td>
 <td width="50%">
 
-### ⚛️ [Social Content Hub](https://github.com/ajaykrishnavemula/Social-content-hub)
+### 🛍️ [eMart Microservices](https://github.com/ajaykrishnavemula/eMart-microservices-containers)
+**Containerized Microservices E-Commerce**
 
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Tailwind](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
 
-**Modern React Development**
+**Architecture:**
+- ✅ Angular frontend + Java/Node.js backends
+- ✅ MongoDB database
+- ✅ Nginx API Gateway
+- ✅ Helm charts for K8s deployment
 
-- 👤 Dynamic Profile Cards
-- 📖 Interactive Story Feed
-- 🔍 Debounced Search
-- 🛒 Shopping List Manager
-- 🎨 Component composition
+**DevOps Features:**
+- ✅ Multi-container orchestration
+- ✅ Service mesh architecture
+- ✅ Horizontal pod autoscaling
+- ✅ Rolling updates & rollbacks
 
-**Tech Stack:**
-- React 18 with Hooks
-- Custom Hooks
-- Tailwind CSS
-- Performance optimization
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-**~1,500 LOC** | **Advanced Level**
+### 📚 [Ansible Zero to Pro](https://github.com/ajaykrishnavemula/ansible-zero2pro)
+**Complete Ansible Automation Mastery**
+
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat&logo=yaml&logoColor=white)
+
+**Modules Covered:**
+- ✅ Ad-hoc commands & Playbooks
+- ✅ Roles & Galaxy
+- ✅ Variables & Conditionals
+- ✅ Ansible Vault (secrets management)
+- ✅ Container orchestration
+- ✅ CI/CD integration (Jenkins)
+
+**Real-World Applications:**
+- Infrastructure provisioning
+- Configuration management
+- Application deployment
+- Security automation
+
+</td>
+<td width="50%">
+
+### ☁️ [AWS DevOps Zero to Pro](https://github.com/ajaykrishnavemula/aws-devops-zero2pro)
+**Complete AWS DevOps Journey**
+
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
+![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=flat)
+
+**AWS Services Mastered:**
+- ✅ EC2, VPC, Route53, S3
+- ✅ CloudFormation (IaC)
+- ✅ CodePipeline, CodeBuild, CodeDeploy
+- ✅ CloudWatch (Monitoring)
+- ✅ Lambda (Serverless)
+- ✅ ECR, ECS, EKS (Containers)
+- ✅ Terraform (IaC alternative)
+
+**DevOps Practices:**
+- Infrastructure as Code
+- CI/CD automation
+- Monitoring & observability
+- Cost optimization
+
+</td>
+</tr>
+</table>
+
+### 🛠️ DevOps Skills Mastered
+
+<table>
+<tr>
+<td width="25%">
+
+**CI/CD**
+- ✅ GitHub Actions
+- ✅ Jenkins
+- ✅ AWS CodePipeline
+- ✅ GitLab CI
+- ✅ Automated Testing
+- ✅ Deployment Strategies
+
+</td>
+<td width="25%">
+
+**Containerization**
+- ✅ Docker
+- ✅ Docker Compose
+- ✅ Multi-stage Builds
+- ✅ Container Security
+- ✅ Image Optimization
+- ✅ Registry Management
+
+</td>
+<td width="25%">
+
+**Orchestration**
+- ✅ Kubernetes
+- ✅ Helm Charts
+- ✅ Service Mesh
+- ✅ Auto-scaling
+- ✅ Load Balancing
+- ✅ Rolling Updates
+
+</td>
+<td width="25%">
+
+**IaC & Automation**
+- ✅ Terraform
+- ✅ CloudFormation
+- ✅ Ansible
+- ✅ Configuration Mgmt
+- ✅ Secrets Management
+- ✅ Monitoring Setup
 
 </td>
 </tr>
@@ -228,104 +466,40 @@ I'm a passionate full-stack developer who loves building **production-ready appl
 
 ---
 
-## 🎓 Core Computer Science Fundamentals
-
-### 💎 [C++ OOP Mastery](https://github.com/ajaykrishnavemula/cpp-oop-mastery)
-
-![C++](https://img.shields.io/badge/C++-00599C?style=flat&logo=c%2B%2B&logoColor=white)
-![OOP](https://img.shields.io/badge/OOP-Principles-blue?style=flat)
-
-**Comprehensive C++ Object-Oriented Programming Journey**
-
-<table>
-<tr>
-<td width="50%">
-
-#### 📚 Learning Modules
-
-**1. Fundamentals**
-- Classes & Objects
-- Encapsulation
-- Inheritance
-- Polymorphism
-- Abstraction
-
-**2. Intermediate Concepts**
-- Constructors & Destructors
-- Copy & Move Semantics
-- Operator Overloading
-- Friend Functions
-- Static Members
-- Const Correctness
-
-**3. Advanced Topics**
-- Templates & Generic Programming
-- Smart Pointers
-- Exception Handling
-- Multiple Inheritance
-- Type Casting
-- Modern C++ Features (C++11/14/17)
-
-</td>
-<td width="50%">
-
-#### 🏗️ Design Patterns & Principles
-
-**Design Patterns**
-- Creational (Singleton, Factory, Builder)
-- Structural (Adapter, Decorator, Facade)
-- Behavioral (Observer, Strategy, Command)
-
-**SOLID Principles**
-- Single Responsibility
-- Open/Closed
-- Liskov Substitution
-- Interface Segregation
-- Dependency Inversion
-
-**Real-World Projects**
-- Library Management System
-- Banking System
-- Employee Management
-- Shape Drawing Application
-- Game Character System
-
-</td>
-</tr>
-</table>
-
-**Status:** 📖 Comprehensive Learning Path
-
----
-
-## 💻 Tech Stack
+## 💻 Tech Stack & Tools
 
 <div align="center">
 
-### Backend Technologies
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white)
-![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
+### Languages & Frameworks
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-
-### Frontend Technologies
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
-
-### Database & Tools
-![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![Mongoose](https://img.shields.io/badge/Mongoose-880000?style=for-the-badge&logo=mongoose&logoColor=white)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
-![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-
-### Programming Languages
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+
+### Databases & Caching
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571?style=for-the-badge&logo=elasticsearch&logoColor=white)
+
+### DevOps & Cloud
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white)
+
+### Security & Monitoring
+![SonarQube](https://img.shields.io/badge/SonarQube-4E9BCD?style=for-the-badge&logo=sonarqube&logoColor=white)
+![Trivy](https://img.shields.io/badge/Trivy-1904DA?style=for-the-badge&logo=trivy&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
 
 </div>
 
@@ -338,76 +512,76 @@ I'm a passionate full-stack developer who loves building **production-ready appl
 <img src="https://github-readme-stats.vercel.app/api?username=ajaykrishnavemula&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="170"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ajaykrishnavemula&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="170"/>
 
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=ajaykrishnavemula&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+
 </div>
 
 ---
 
-## 🏆 Key Achievements
+## 🏆 Complete SDLC Expertise
 
 <div align="center">
 
-| 🎯 Achievement | 📊 Metric |
-|:--------------|:----------|
-| **Full-Stack Applications** | 5 Production-Ready Systems |
-| **API Endpoints Created** | 150+ Documented Endpoints |
-| **Frontend Projects** | 3 Comprehensive Applications |
-| **Original Projects Consolidated** | 22 → 3 Portfolio Apps |
-| **Lines of Code** | 20,000+ (Backend + Frontend) |
-| **Documentation Written** | 20,000+ Lines |
-| **Test Coverage** | 200+ Tests Across Projects |
-| **Development Time** | 300+ Hours |
+| 🎯 Domain | 📊 Projects | 💡 Key Skills | 🚀 Status |
+|:----------|:------------|:--------------|:----------|
+| **System Design** | 6 HLD Projects | Architecture, Scaling, Trade-offs | ✅ Complete |
+| **Full-Stack Dev** | 5 Production Apps | React, Node.js, TypeScript, MongoDB | ✅ Complete |
+| **DevSecOps** | 4 Major Projects | CI/CD, K8s, Security, IaC | ✅ Complete |
+| **Frontend** | 3 Showcase Apps | Vanilla JS → React, Performance | ✅ Complete |
+| **Documentation** | 30,000+ Lines | Technical Writing, Architecture Docs | ✅ Complete |
 
 </div>
 
 ---
 
-## 🎓 Technical Skills Showcase
+## 🎓 Learning Journey & Achievements
 
 <table>
 <tr>
-<td width="33%">
+<td width="50%">
 
-### Backend Development
-- ✅ RESTful API Design
-- ✅ JWT & OAuth Authentication
-- ✅ Role-Based Access Control
-- ✅ Database Modeling (MongoDB)
-- ✅ Payment Integration
-- ✅ Real-Time Features (Socket.io)
-- ✅ Security Best Practices
-- ✅ Input Validation
-- ✅ Error Handling
-- ✅ API Documentation
+### 📈 Technical Growth
 
-</td>
-<td width="33%">
+**System Design Mastery**
+- ✅ Beginner → Advanced (6 projects)
+- ✅ CAP theorem understanding
+- ✅ Database selection expertise
+- ✅ Scaling patterns mastered
 
-### Frontend Development
-- ✅ Modern JavaScript (ES6+)
-- ✅ React 18 with Hooks
-- ✅ Custom Hooks Development
-- ✅ State Management
-- ✅ Performance Optimization
-- ✅ Responsive Design
-- ✅ CSS Frameworks
-- ✅ Component Architecture
-- ✅ Design Patterns
-- ✅ Accessibility (ARIA)
+**Full-Stack Evolution**
+- ✅ 5 production-ready applications
+- ✅ 150+ API endpoints created
+- ✅ Real-time features (WebSockets)
+- ✅ Payment integrations
+
+**DevOps Transformation**
+- ✅ CI/CD pipeline automation
+- ✅ Kubernetes orchestration
+- ✅ Infrastructure as Code
+- ✅ Security automation
 
 </td>
-<td width="33%">
+<td width="50%">
 
-### Architecture & Best Practices
-- ✅ Layered Architecture
-- ✅ Service Layer Pattern
-- ✅ Component Composition
-- ✅ Clean Code Principles
-- ✅ DRY & SOLID Principles
-- ✅ Test-Driven Development
-- ✅ CI/CD Pipelines
-- ✅ Docker Containerization
-- ✅ Version Control (Git)
-- ✅ Comprehensive Documentation
+### 🌟 Key Achievements
+
+**Code & Documentation**
+- 📝 25,000+ lines of production code
+- 📚 30,000+ lines of documentation
+- 🧪 200+ tests across projects
+- ⏱️ 500+ hours of development
+
+**Architecture & Design**
+- 🏗️ 6 system design architectures
+- 🎨 15+ design patterns implemented
+- 📊 Database modeling expertise
+- 🔄 Event-driven architectures
+
+**DevOps & Security**
+- 🔒 4 complete DevSecOps pipelines
+- ☁️ Multi-cloud deployments
+- 🛡️ Security scanning automation
+- 📈 Monitoring & observability
 
 </td>
 </tr>
@@ -415,60 +589,38 @@ I'm a passionate full-stack developer who loves building **production-ready appl
 
 ---
 
-## 📈 Project Evolution
-
-### Full-Stack Journey
-
-```
-Phase 1: Backend APIs (5 Projects)
-├── Auth-Guard-API ✅
-├── Commerce-Pro-API ✅
-├── Task-Flow-API ✅
-├── Career-Hub-API ✅
-└── CampusPass ✅
-
-Phase 2: Frontend Integration (5 Projects)
-├── Auth-Guard Frontend ✅
-├── E-Commerce-Store Frontend ✅
-├── Project-Flow Frontend ✅
-├── Career-Hub Frontend ✅
-└── Campus-Pass Frontend ✅
-
-Phase 3: Frontend Consolidation (3 Projects)
-├── Productivity Dashboard (22 projects → 1) ✅
-├── E-Commerce Platform (OOP showcase) ✅
-└── Social Content Hub (React showcase) ✅
-
-Phase 4: Core CS Fundamentals
-└── C++ OOP Mastery (Comprehensive) 📖
-```
-
----
-
-## 🌟 What Makes My Projects Stand Out
+## 🎯 What Makes My Work Stand Out
 
 <table>
 <tr>
-<td width="50%">
+<td width="33%">
 
-### 💡 Technical Excellence
-- **Production-Ready Code**: Not just tutorials - real, functional applications
-- **Full-Stack Expertise**: Complete end-to-end implementations
-- **Modern Tech Stack**: Latest versions of React, Node.js, TypeScript
-- **Security-First**: JWT, bcrypt, input validation, rate limiting
-- **Performance-Optimized**: Efficient algorithms and caching strategies
-- **Real-Time Features**: WebSocket integration for live updates
+### 🏗️ System Design
+- **Interview-Ready**: 6 comprehensive HLD projects
+- **Real-World Scale**: Billion-user systems
+- **Trade-off Analysis**: Deep understanding of choices
+- **Pattern Mastery**: 15+ architectural patterns
+- **Documentation**: Portfolio-worthy explanations
 
 </td>
-<td width="50%">
+<td width="33%">
 
-### 📚 Documentation Quality
-- **Comprehensive READMEs**: Quick start guides for every project
-- **API Documentation**: Complete endpoint references with examples
-- **Architecture Diagrams**: Visual system design documentation
-- **Learning Guides**: Step-by-step tutorials for beginners
-- **Code Comments**: Clear explanations throughout codebase
-- **Best Practices**: Industry-standard patterns and conventions
+### 💻 Full-Stack
+- **Production-Ready**: Not tutorials, real apps
+- **Modern Stack**: Latest React, Node.js, TypeScript
+- **Security-First**: JWT, OAuth, encryption
+- **Performance**: Optimized algorithms & caching
+- **Real-Time**: WebSocket implementations
+
+</td>
+<td width="33%">
+
+### 🔒 DevSecOps
+- **Complete Pipelines**: Build → Test → Deploy
+- **Security Automation**: SAST, container scanning
+- **K8s Expertise**: Orchestration & scaling
+- **IaC Mastery**: Terraform, CloudFormation
+- **Cloud Native**: AWS, containerization
 
 </td>
 </tr>
@@ -476,60 +628,64 @@ Phase 4: Core CS Fundamentals
 
 ---
 
-## 🎯 Currently Working On
+## 💼 For Recruiters & Hiring Managers
 
-- 🔨 Enhancing test coverage across all projects
-- 📝 Adding Swagger/OpenAPI documentation
-- 🚀 Implementing CI/CD pipelines
-- 🐳 Creating Docker containers for deployment
-- 📊 Building analytics dashboards
-- 🔐 Adding advanced security features
-
----
-
-## 💼 For Recruiters
-
-### What These Projects Demonstrate
+### 🎯 What These Projects Demonstrate
 
 <table>
 <tr>
 <td width="50%">
 
 #### Technical Competency
-- ✅ Strong foundation in full-stack development
-- ✅ Understanding of OOP principles and design patterns
-- ✅ Modern React development with performance optimization
-- ✅ RESTful API design following industry standards
-- ✅ Database design and optimization
-- ✅ Real-time application development
-- ✅ Security implementation and best practices
-- ✅ Test-driven development approach
+- ✅ **System Design**: Can architect billion-user systems
+- ✅ **Full-Stack**: End-to-end application development
+- ✅ **DevOps**: Complete CI/CD & infrastructure automation
+- ✅ **Security**: DevSecOps practices & security automation
+- ✅ **Databases**: Multi-database expertise (SQL, NoSQL, Cache)
+- ✅ **Cloud**: AWS services & cloud-native architecture
+- ✅ **Containers**: Docker & Kubernetes orchestration
+- ✅ **Testing**: TDD approach with comprehensive test suites
 
 </td>
 <td width="50%">
 
 #### Professional Skills
-- ✅ Architectural decision-making
-- ✅ Code organization and modularity
-- ✅ State management strategies
-- ✅ Problem-solving abilities
-- ✅ Clean, maintainable code
-- ✅ Comprehensive documentation
-- ✅ Version control expertise
-- ✅ Continuous learning mindset
+- ✅ **Architecture**: High-level & low-level design
+- ✅ **Scalability**: Designing for millions of users
+- ✅ **Trade-offs**: Understanding technical decisions
+- ✅ **Documentation**: Clear, comprehensive technical writing
+- ✅ **Best Practices**: Clean code, SOLID principles
+- ✅ **Problem-Solving**: Complex system challenges
+- ✅ **Learning**: Continuous skill development
+- ✅ **Communication**: Explaining technical concepts
 
 </td>
 </tr>
 </table>
 
-### Project Highlights
+### 📊 Portfolio Highlights
 
-**Full-Stack Applications**: 5 complete systems with React frontends and Node.js backends  
-**API Development**: 150+ endpoints across multiple domains  
-**Frontend Mastery**: Progression from Vanilla JS → OOP → React  
-**Documentation**: 20,000+ lines of comprehensive guides  
-**Testing**: 200+ tests ensuring code quality  
-**Real-World Solutions**: Projects solving actual business problems  
+```
+System Design:     6 projects (Beginner → Advanced scale)
+Full-Stack Apps:   5 production-ready systems
+DevSecOps:         4 complete CI/CD pipelines
+API Endpoints:     150+ documented & tested
+Code Written:      25,000+ lines
+Documentation:     30,000+ lines
+Test Coverage:     200+ tests
+Development Time:  500+ hours
+```
+
+---
+
+## 🚀 Currently Working On
+
+- 🔨 Adding LLD (Low-Level Design) to system design projects
+- 📝 Implementing Swagger/OpenAPI documentation
+- 🐳 Creating production-ready Docker Compose setups
+- ☁️ Multi-cloud deployment strategies (AWS, Azure, GCP)
+- 📊 Advanced monitoring with Prometheus & Grafana
+- 🔐 Zero-trust security architecture implementations
 
 ---
 
@@ -541,7 +697,11 @@ Phase 4: Core CS Fundamentals
 [![Email](https://img.shields.io/badge/Email-ajaykrishnatech%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ajaykrishnatech@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-ajaykrishnavemula-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ajaykrishnavemula)
 
-**Open to collaboration, feedback, and exciting opportunities!**
+**Open to:**
+- 💼 Full-time opportunities (Full-Stack, Backend, DevOps, System Design)
+- 🤝 Collaboration on interesting projects
+- 💡 Technical discussions and knowledge sharing
+- 📚 Mentoring and learning from others
 
 </div>
 
@@ -549,10 +709,14 @@ Phase 4: Core CS Fundamentals
 
 <div align="center">
 
-### 💭 "Building production-ready applications, one commit at a time" 🚀
+### 💭 "From Design to Deployment - Building Scalable Systems Across the Entire SDLC" 🚀
 
 ![Profile Views](https://komarev.com/ghpvc/?username=ajaykrishnavemula&color=blueviolet&style=for-the-badge)
 
 ⭐ **Star my repositories if you find them useful!** ⭐
+
+---
+
+**Last Updated:** December 2024
 
 </div>
