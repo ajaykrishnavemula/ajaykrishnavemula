@@ -242,8 +242,22 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 ![Fastify](https://img.shields.io/badge/Fastify-000000?style=flat&logo=fastify&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 
-**Frontend:** Multi-role dashboards, Real-time notifications, QR code generation  
+**Frontend:** Multi-role dashboards, Real-time notifications, QR code generation
 **Backend:** JWT auth, 40+ endpoints, WebSockets, Email & PDF generation
+
+**Key Concepts:**
+- Multi-tenant RBAC architecture
+- Real-time bidirectional communication
+- QR code security & verification
+- Event-driven notifications
+- Automated document generation
+
+**What I Learned:**
+- WebSocket vs REST trade-offs
+- Flexible permission system design
+- State synchronization challenges
+- Server-side PDF generation
+- Mobile-first responsive design
 
 **Status:** 🚀 Production Ready
 
@@ -258,8 +272,22 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=flat&logo=mongodb&logoColor=white)
 
-**Frontend:** OAuth integration, 2FA, Admin dashboard  
+**Frontend:** OAuth integration, 2FA, Admin dashboard
 **Backend:** JWT + OAuth, RBAC, Security best practices
+
+**Key Concepts:**
+- Stateless JWT authentication
+- Token rotation & refresh strategy
+- OAuth 2.0 authorization flow
+- TOTP-based 2FA implementation
+- Multi-device session management
+
+**What I Learned:**
+- JWT security best practices
+- Password hashing & salt rounds
+- Rate limiting for brute force prevention
+- OAuth 2.0 token exchange flow
+- Account security vs UX balance
 
 **Status:** 🚀 Production Ready
 
@@ -275,8 +303,22 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 
-**Frontend:** Job search, Application tracking, Real-time messaging  
+**Frontend:** Job search, Application tracking, Real-time messaging
 **Backend:** Elasticsearch, Email notifications, Analytics
+
+**Key Concepts:**
+- Full-text search with Elasticsearch
+- Job recommendation algorithm
+- Application state machine workflow
+- Secure file upload & management
+- Email automation & templates
+
+**What I Learned:**
+- Elasticsearch indexing & query DSL
+- Search relevance tuning & boosting
+- File upload security practices
+- Email deliverability optimization
+- Analytics data aggregation
 
 **Status:** 🚀 Production Ready
 
@@ -290,8 +332,22 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 ![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 
-**Frontend:** Product catalog, Shopping cart, Stripe checkout  
+**Frontend:** Product catalog, Shopping cart, Stripe checkout
 **Backend:** Payment integration, Order processing, Reviews
+
+**Key Concepts:**
+- Stripe payment processing & webhooks
+- Optimistic locking for inventory
+- Cart persistence & merging
+- Order fulfillment state machine
+- Product variant modeling
+
+**What I Learned:**
+- Stripe integration & PCI compliance
+- Preventing race conditions in inventory
+- Cart merging on user login
+- Order processing pipeline design
+- Product data modeling in MongoDB
 
 **Status:** 🚀 Production Ready
 
@@ -308,8 +364,22 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 ![Express](https://img.shields.io/badge/Express-000000?style=flat&logo=express&logoColor=white)
 ![Socket.io](https://img.shields.io/badge/Socket.io-010101?style=flat&logo=socket.io&logoColor=white)
 
-**Frontend:** Kanban board with drag & drop, Real-time collaboration, Analytics dashboard  
+**Frontend:** Kanban board with drag & drop, Real-time collaboration, Analytics dashboard
 **Backend:** Project & task management, Socket.io real-time updates, Activity tracking
+
+**Key Concepts:**
+- Operational transformation for concurrent editing
+- Room-based WebSocket architecture
+- Drag-and-drop state synchronization
+- Presence system with heartbeat
+- Granular role-based permissions
+
+**What I Learned:**
+- Handling concurrent edits without conflicts
+- WebSocket connection & room management
+- Optimistic UI updates with rollback
+- Online/offline presence detection
+- Smooth drag-and-drop UX implementation
 
 **Status:** 🚀 Production Ready
 
