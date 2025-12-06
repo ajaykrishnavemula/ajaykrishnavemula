@@ -453,7 +453,7 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 <td colspan="2">
 
 ### 🌟 [OpenTelemetry E-Commerce Platform](https://github.com/ajaykrishnavemula/devSecOps-lab-OpenTelemetry)
-**🏆 FLAGSHIP PROJECT: Production-Grade Multi-Language Microservices on AWS EKS**
+**Production-Grade Multi-Language Microservices on AWS EKS**
 
 ![AWS](https://img.shields.io/badge/AWS-EKS-FF9900?style=flat&logo=amazon-aws&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
@@ -462,37 +462,26 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat&logo=github-actions&logoColor=white)
 
-**🎯 The Ultimate DevOps Showcase:**
-- ✅ **15+ Microservices** orchestrated in Kubernetes (Go, Java, Python, Node.js, .NET, Ruby, Rust, PHP, Kotlin)
-- ✅ **12+ Containers** running simultaneously in production-ready K8s cluster
-- ✅ **Complete AWS Infrastructure** automated with Terraform (VPC, EKS, ALB, Route53, S3)
-- ✅ **Full CI/CD Pipeline** with GitHub Actions (Build → Test → Security Scan → Deploy)
-- ✅ **Production Observability** with OpenTelemetry, Prometheus, Grafana, Jaeger
-- ✅ **Enterprise Security** with RBAC, IAM roles, secrets management, network policies
+**Infrastructure:** 15+ microservices (Go, Java, Python, Node.js, .NET, Ruby, Rust, PHP, Kotlin)
+**Platform:** AWS EKS with Terraform IaC, complete CI/CD, distributed tracing
 
-**Architecture Highlights:**
-- 🏗️ Multi-language microservices architecture with service mesh (Envoy)
-- ☁️ AWS EKS cluster with auto-scaling node groups and ALB ingress
-- 🔄 GitOps-based continuous deployment with automated manifest updates
-- 📊 Distributed tracing across all services with context propagation
-- 🛡️ DevSecOps practices: container scanning, SAST, secrets encryption
-- 🚀 Horizontal pod autoscaling for high availability (handles 10x traffic spikes)
+**Key Concepts:**
+- Multi-language microservices with service mesh (Envoy)
+- Infrastructure as Code with Terraform (VPC, EKS, ALB, Route53)
+- GitOps-based continuous deployment
+- Distributed tracing with OpenTelemetry across all services
+- Horizontal pod autoscaling for high availability
+- Complete observability stack (Prometheus, Grafana, Jaeger)
 
-**Technical Achievements:**
-- Orchestrated 15+ services across 9 programming languages
-- Automated complete infrastructure provisioning (VPC, subnets, NAT, IGW, EKS)
-- Implemented AWS Load Balancer Controller with Kubernetes Ingress
-- Set up complete observability stack (distributed traces, metrics, centralized logs)
-- Configured Kafka for event streaming between microservices
-- Deployed Redis/Valkey for caching and session management
+**What I Learned:**
+- Orchestrating polyglot microservices at scale
+- Terraform for complete AWS infrastructure automation
+- Distributed tracing and context propagation
+- Kubernetes auto-scaling strategies
+- Production observability best practices
+- DevSecOps pipeline integration (SAST, container scanning)
 
-**Business Impact:**
-- ⚡ Deployment time reduced from hours to minutes
-- 📉 Infrastructure errors reduced by 95% with IaC
-- 📈 Auto-scaling handles 10x traffic spikes seamlessly
-- 🔍 Full visibility across 15+ microservices with distributed tracing
-
-**Status:** 🚀 Production-Ready Enterprise Deployment
+**Status:** 🚀 Production Ready
 
 </td>
 </tr>
@@ -507,17 +496,26 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat&logo=kubernetes&logoColor=white)
 ![Security](https://img.shields.io/badge/Security-Trivy_SonarQube-red?style=flat)
 
-**CI/CD Pipeline:**
-- ✅ Automated testing & code quality (SonarQube)
-- ✅ Container security scanning (Trivy)
-- ✅ Docker image building & pushing
-- ✅ Kubernetes deployment automation
+**Pipeline:** GitHub Actions CI/CD with security scanning
+**Security:** SonarQube (SAST), Trivy (container scanning), secrets management
 
-**Security Features:**
-- ✅ SAST (Static Application Security Testing)
-- ✅ Container vulnerability scanning
-- ✅ Secrets management
-- ✅ Security gates in pipeline
+**Key Concepts:**
+- Shift-left security in CI/CD pipeline
+- Automated code quality gates (SonarQube)
+- Container vulnerability scanning (Trivy)
+- Multi-stage Docker builds for optimization
+- Kubernetes deployment automation
+- Security gates preventing vulnerable deployments
+
+**What I Learned:**
+- Integrating security into CI/CD pipeline
+- SAST tools and code quality enforcement
+- Container security best practices
+- Automated security scanning workflows
+- Kubernetes security configurations
+- Balancing security with deployment speed
+
+**Status:** 🚀 Production Ready
 
 </td>
 <td width="50%">
@@ -530,17 +528,26 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat&logo=helm&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
 
-**Architecture:**
-- ✅ Angular frontend + Java/Node.js backends
-- ✅ MongoDB database
-- ✅ Nginx API Gateway
-- ✅ Helm charts for K8s deployment
+**Architecture:** Angular frontend, Java/Node.js backends, MongoDB, Nginx API Gateway
+**Deployment:** Helm charts for Kubernetes, multi-container orchestration
 
-**DevOps Features:**
-- ✅ Multi-container orchestration
-- ✅ Service mesh architecture
-- ✅ Horizontal pod autoscaling
-- ✅ Rolling updates & rollbacks
+**Key Concepts:**
+- Microservices communication patterns
+- API Gateway for routing and load balancing
+- Helm charts for templated K8s deployments
+- Service mesh architecture
+- Horizontal pod autoscaling
+- Rolling updates and rollback strategies
+
+**What I Learned:**
+- Microservices inter-service communication
+- API Gateway design and implementation
+- Helm chart templating and versioning
+- Kubernetes service discovery
+- Container orchestration at scale
+- Zero-downtime deployment strategies
+
+**Status:** 🚀 Production Ready
 
 </td>
 </tr>
@@ -553,19 +560,26 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 ![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=flat&logo=ansible&logoColor=white)
 ![YAML](https://img.shields.io/badge/YAML-CB171E?style=flat&logo=yaml&logoColor=white)
 
-**Modules Covered:**
-- ✅ Ad-hoc commands & Playbooks
-- ✅ Roles & Galaxy
-- ✅ Variables & Conditionals
-- ✅ Ansible Vault (secrets management)
-- ✅ Container orchestration
-- ✅ CI/CD integration (Jenkins)
+**Coverage:** Playbooks, Roles, Vault, Variables, Loops, Error Handling
+**Integration:** Container orchestration, CI/CD with Jenkins
 
-**Real-World Applications:**
-- Infrastructure provisioning
-- Configuration management
-- Application deployment
-- Security automation
+**Key Concepts:**
+- Infrastructure as Code with Ansible
+- Playbooks and role-based organization
+- Ansible Vault for secrets management
+- Dynamic inventories and variables
+- Error handling and idempotency
+- Container orchestration automation
+
+**What I Learned:**
+- Ansible best practices and patterns
+- Secrets management with Vault
+- Idempotent playbook design
+- CI/CD integration strategies
+- Configuration management at scale
+- Automation testing and validation
+
+**Status:** 📚 Comprehensive Course
 
 </td>
 <td width="50%">
@@ -577,20 +591,26 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat&logo=terraform&logoColor=white)
 ![CloudFormation](https://img.shields.io/badge/CloudFormation-FF9900?style=flat)
 
-**AWS Services Mastered:**
-- ✅ EC2, VPC, Route53, S3
-- ✅ CloudFormation (IaC)
-- ✅ CodePipeline, CodeBuild, CodeDeploy
-- ✅ CloudWatch (Monitoring)
-- ✅ Lambda (Serverless)
-- ✅ ECR, ECS, EKS (Containers)
-- ✅ Terraform (IaC alternative)
+**Services:** EC2, VPC, S3, Lambda, ECS, EKS, CodePipeline, CloudWatch
+**IaC:** CloudFormation, Terraform for complete automation
 
-**DevOps Practices:**
-- Infrastructure as Code
-- CI/CD automation
-- Monitoring & observability
-- Cost optimization
+**Key Concepts:**
+- AWS infrastructure fundamentals (VPC, EC2, S3)
+- Infrastructure as Code (CloudFormation, Terraform)
+- CI/CD with AWS CodePipeline & CodeBuild
+- Container services (ECR, ECS, EKS)
+- Serverless with Lambda
+- Monitoring with CloudWatch
+
+**What I Learned:**
+- AWS service selection and architecture
+- IaC best practices (CloudFormation vs Terraform)
+- Building complete CI/CD pipelines
+- Container orchestration on AWS
+- Serverless architecture patterns
+- Cost optimization strategies
+
+**Status:** 📚 Comprehensive Course
 
 </td>
 </tr>
