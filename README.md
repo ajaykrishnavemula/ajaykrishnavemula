@@ -387,6 +387,61 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 </tr>
 </table>
 
+### 🎓 Full-Stack Development Skills Mastered
+
+<table>
+<tr>
+<td width="25%">
+
+**Frontend Development**
+- ✅ React & TypeScript
+- ✅ State Management (Zustand, Redux)
+- ✅ Real-time UI Updates
+- ✅ Responsive Design
+- ✅ TailwindCSS & Styling
+- ✅ Form Validation
+- ✅ Performance Optimization
+
+</td>
+<td width="25%">
+
+**Backend Development**
+- ✅ Node.js (Express, Fastify)
+- ✅ RESTful API Design
+- ✅ WebSocket/Socket.io
+- ✅ Authentication (JWT, OAuth)
+- ✅ Authorization (RBAC)
+- ✅ API Security
+- ✅ Error Handling
+
+</td>
+<td width="25%">
+
+**Database & Caching**
+- ✅ MongoDB & Mongoose
+- ✅ PostgreSQL & SQL
+- ✅ Redis Caching
+- ✅ Elasticsearch
+- ✅ Database Indexing
+- ✅ Query Optimization
+- ✅ Data Modeling
+
+</td>
+<td width="25%">
+
+**Integration & Tools**
+- ✅ Payment (Stripe)
+- ✅ Email Services
+- ✅ File Upload/Storage
+- ✅ PDF Generation
+- ✅ QR Code Systems
+- ✅ Third-party APIs
+- ✅ Testing (Jest, Vitest)
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## 🔒 DevSecOps & Cloud Infrastructure
