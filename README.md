@@ -49,73 +49,29 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 <tr>
 <td width="50%">
 
-### 🔗 [URL Shortener](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/1.%20url-shortener)
-**Difficulty:** ⭐ Beginner | **Scale:** 1B URLs, 100M DAU
+### 💬 [Messaging App (WhatsApp)](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/6.%20messaging-app-whatsapp)
+**Difficulty:** Advanced | **Scale:** Billions of users
 
 ![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
-![Patterns](https://img.shields.io/badge/Patterns-Caching-blue?style=flat)
+![Patterns](https://img.shields.io/badge/Patterns-Real--Time-blue?style=flat)
 
 **Key Concepts:**
-- Base62 encoding & hash algorithms
-- Redis caching strategies
-- Database indexing & sharding
-- CDN optimization
+- WebSocket connections for real-time
+- Redis Pub/Sub for message routing
+- Offline message delivery (Inbox pattern)
+- Pre-signed URLs for media uploads
 
 **What I Learned:**
-- Unique ID generation at scale
-- Trade-offs: Hash vs Counter
-- Multi-layer caching patterns
-- Horizontal scaling techniques
-
-</td>
-<td width="50%">
-
-### 🚦 [Rate Limiter](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/2.%20rate-limiter)
-**Difficulty:** ⭐⭐ Intermediate | **Scale:** 1M RPS
-
-![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
-![Patterns](https://img.shields.io/badge/Patterns-Token_Bucket-blue?style=flat)
-
-**Key Concepts:**
-- Token Bucket algorithm
-- Redis sharding with consistent hashing
-- API Gateway integration
-- Distributed counters
-
-**What I Learned:**
-- Rate limiting algorithms comparison
-- Scaling to millions of requests/sec
-- Handling hot keys
-- Fail-open vs fail-closed strategies
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### 🛒 [E-Commerce Order System](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/3.%20ecommerce-order-system)
-**Difficulty:** ⭐⭐⭐ Advanced | **Scale:** Amazon-level
-
-![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
-![Patterns](https://img.shields.io/badge/Patterns-Microservices-blue?style=flat)
-
-**Key Concepts:**
-- Microservices architecture
-- Event-driven design (Kafka)
-- Inventory management & race conditions
-- Payment processing state machines
-
-**What I Learned:**
-- Handling Black Friday scale (10× traffic)
-- Distributed transactions (Saga pattern)
-- Database selection (MySQL/MongoDB/Cassandra)
-- Real-time analytics with Spark
+- Why WebSockets over REST
+- Scaling real-time connections (1-2M/server)
+- Guaranteed message delivery
+- Multi-device synchronization
 
 </td>
 <td width="50%">
 
 ### 📰 [Social Feed (Facebook)](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/4.%20social-feed-facebook)
-**Difficulty:** ⭐⭐⭐ Advanced | **Scale:** 2B users
+**Difficulty:** Advanced | **Scale:** 2B users
 
 ![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
 ![Patterns](https://img.shields.io/badge/Patterns-Fan--Out-blue?style=flat)
@@ -133,12 +89,59 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 - DynamoDB data modeling with GSI
 
 </td>
+
+</tr>
+<tr>
+<td width="50%">
+
+### 🛒 [E-Commerce Order System](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/3.%20ecommerce-order-system)
+**Difficulty:** Advanced | **Scale:** Amazon-level
+
+![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
+![Patterns](https://img.shields.io/badge/Patterns-Microservices-blue?style=flat)
+
+**Key Concepts:**
+- Microservices architecture
+- Event-driven design (Kafka)
+- Inventory management & race conditions
+- Payment processing state machines
+
+**What I Learned:**
+- Handling Black Friday scale (10× traffic)
+- Distributed transactions (Saga pattern)
+- Database selection (MySQL/MongoDB/Cassandra)
+- Real-time analytics with Spark
+
+</td>
+
+<td width="50%">
+
+### 🚦 [Rate Limiter](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/2.%20rate-limiter)
+**Difficulty:** Intermediate | **Scale:** 1M RPS
+
+![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
+![Patterns](https://img.shields.io/badge/Patterns-Token_Bucket-blue?style=flat)
+
+**Key Concepts:**
+- Token Bucket algorithm
+- Redis sharding with consistent hashing
+- API Gateway integration
+- Distributed counters
+
+**What I Learned:**
+- Rate limiting algorithms comparison
+- Scaling to millions of requests/sec
+- Handling hot keys
+- Fail-open vs fail-closed strategies
+
+</td>
+
 </tr>
 <tr>
 <td width="50%">
 
 ### 🚀 [Distributed Cache](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/5.%20distributed-cache)
-**Difficulty:** ⭐⭐ Intermediate | **Scale:** High throughput
+**Difficulty:** Intermediate | **Scale:** High throughput
 
 ![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
 ![Patterns](https://img.shields.io/badge/Patterns-Consistent_Hashing-blue?style=flat)
@@ -156,25 +159,26 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 - Redis vs Memcached trade-offs
 
 </td>
+
 <td width="50%">
 
-### 💬 [Messaging App (WhatsApp)](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/6.%20messaging-app-whatsapp)
-**Difficulty:** ⭐⭐⭐ Advanced | **Scale:** Billions of users
+### 🔗 [URL Shortener](https://github.com/ajaykrishnavemula/system-design-hld-and-tradeoffs/tree/main/1.%20url-shortener)
+**Difficulty:** Beginner | **Scale:** 1B URLs, 100M DAU
 
 ![System Design](https://img.shields.io/badge/HLD-Complete-success?style=flat)
-![Patterns](https://img.shields.io/badge/Patterns-Real--Time-blue?style=flat)
+![Patterns](https://img.shields.io/badge/Patterns-Caching-blue?style=flat)
 
 **Key Concepts:**
-- WebSocket connections for real-time
-- Redis Pub/Sub for message routing
-- Offline message delivery (Inbox pattern)
-- Pre-signed URLs for media uploads
+- Base62 encoding & hash algorithms
+- Redis caching strategies
+- Database indexing & sharding
+- CDN optimization
 
 **What I Learned:**
-- Why WebSockets over REST
-- Scaling real-time connections (1-2M/server)
-- Guaranteed message delivery
-- Multi-device synchronization
+- Unique ID generation at scale
+- Trade-offs: Hash vs Counter
+- Multi-layer caching patterns
+- Horizontal scaling techniques
 
 </td>
 </tr>
