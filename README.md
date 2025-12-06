@@ -731,7 +731,7 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 | **Full-Stack Dev** | 5 Production Apps | React, Node.js, TypeScript, MongoDB | ✅ Complete |
 | **DevSecOps** | 4 Major Projects | CI/CD, K8s, Security, IaC | ✅ Complete |
 | **Frontend** | 3 Showcase Apps | Vanilla JS → React, Performance | ✅ Complete |
-| **Documentation** | 30,000+ Lines | Technical Writing, Architecture Docs | ✅ Complete |
+| **Documentation** | 10,000+ Lines | Technical Writing, Architecture Docs | ✅ Complete |
 
 </div>
 
