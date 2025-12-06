@@ -35,8 +35,8 @@ I'm a **full-stack engineer** with expertise spanning the **entire Software Deve
 - ☸️ **Microservices**: 15+ services orchestrated on AWS EKS (Go, Java, Python, Node.js, .NET, Ruby, Rust, PHP, Kotlin)
 - ☁️ **Cloud Infrastructure**: Complete AWS automation with Terraform (VPC, EKS, ALB, Route53)
 - 📊 **Observability**: Production-grade distributed tracing with OpenTelemetry, Prometheus, Grafana
-- 📚 **Documentation**: 30,000+ lines of technical documentation
 - ⚡ **Code**: 25,000+ lines across multiple domains
+- 📚 **Documentation**: 10,000+ lines of technical documentation
 - 🎓 **Learning**: Continuous improvement in distributed systems and cloud architecture
 
 ---
